@@ -1,0 +1,13 @@
+
+/*Media feita para responsividade de celulares*/
+@media screen and (max-width: 892px) and (min-height: 400px){
+
+    #projects{
+        padding: 10rem;
+    }
+  
+    .button{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
