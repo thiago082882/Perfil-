@@ -1,80 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Thiago Costa — Android Developer</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
-    rel="stylesheet">
+  <meta name="description" content="Portfólio de Thiago Costa de Jesus, Android Developer com 4+ anos de experiência em Kotlin, Jetpack Compose, Kotlin Multiplatform e Clean Architecture.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </head>
-
 <body>
 
-  <!-- ── HEADER ──────────────────────────────────────────────── -->
   <header class="header" id="header">
     <a class="brand" href="#hero"><span>thiago</span>.dev</a>
     <nav>
       <ul class="nav-list" id="navList">
         <li><a href="#hero">Home</a></li>
+        <li><a href="#playstore">Play Store</a></li>
         <li><a href="#projects">Projetos</a></li>
-        <li><a href="#kmp">KMP</a></li>
         <li><a href="#about">Sobre</a></li>
         <li><a href="#contact">Contato</a></li>
       </ul>
-      <button class="nav-toggle" id="navToggle" aria-label="Menu">
-        <ion-icon name="menu-outline" style="font-size:24px"></ion-icon>
-      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><ion-icon name="menu-outline" style="font-size:26px"></ion-icon></button>
     </nav>
   </header>
 
-  <!-- ── HERO ────────────────────────────────────────────────── -->
+  <!-- HERO -->
   <section id="hero" class="hero">
     <div class="container hero-inner">
       <div>
         <p class="eyebrow">Android Developer · São Paulo, BR</p>
-        <h1 class="hero-title">
-          <span class="name">Thiago Costa</span><br>de Jesus
-        </h1>
-        <p class="hero-sub">Construindo apps Android de alta qualidade com Kotlin, Jetpack Compose e Clean Architecture.
-          4+ anos em projetos corporativos de grande escala.</p>
+        <h1 class="hero-title"><span class="name">Thiago Costa</span><br>de Jesus</h1>
+        <p class="hero-sub">Construo apps Android de alta qualidade com Kotlin, Jetpack Compose e Clean Architecture. 4+ anos em projetos corporativos de grande escala, incluindo um app bancário do Santander.</p>
         <div class="hero-tags">
-          <span class="tag green">Kotlin</span>
-          <span class="tag green">Jetpack Compose</span>
-          <span class="tag green">KMP</span>
-          <span class="tag green">Play Store</span>
-          <span class="tag">MVVM</span>
-          <span class="tag">Clean Arch</span>
-          <span class="tag">Hilt</span>
-          <span class="tag">Coroutines</span>
+          <span class="tag green">Kotlin</span><span class="tag green">Jetpack Compose</span><span class="tag green">KMP</span><span class="tag green">Play Store</span>
+          <span class="tag">MVVM</span><span class="tag">MVI</span><span class="tag">Clean Arch</span><span class="tag">Hilt</span><span class="tag">Coroutines · Flow</span>
         </div>
         <div class="hero-actions">
           <a class="btn primary" href="#projects"><ion-icon name="grid-outline"></ion-icon> Ver projetos</a>
-          <a class="btn ghost" href="https://drive.google.com/file/d/1KknCLKuOkIb_yNqiRSrm1t7qp2b0v1vq/view?usp=sharing"
-            target="_blank"><ion-icon name="document-text-outline"></ion-icon> Currículo</a>
+          <a class="btn ghost" href="https://drive.google.com/file/d/1nGODWDtBhHDuWczfqbxukhjPRlOmI5Qp/view?usp=sharing" target="_blank" rel="noopener noreferrer"><ion-icon name="document-text-outline"></ion-icon> Currículo</a>
         </div>
         <div class="hero-stats">
           <div class="stat"><strong>4+</strong><span>anos de experiência</span></div>
-          <div class="stat"><strong>10+</strong><span>apps desenvolvidos</span></div>
-        <div class="stat"><strong>1</strong><span>app na Play Store</span></div>
+          <div class="stat"><strong>16</strong><span>apps no portfólio</span></div>
+          <div class="stat"><strong>4</strong><span>projetos em KMP</span></div>
+          <div class="stat"><strong>1</strong><span>app na Play Store</span></div>
         </div>
       </div>
       <div>
         <div class="card-glass">
-          <img src="./img/thiago.png" alt="Foto Thiago" class="profile-img">
+          <img src="./img/thiago.png" alt="Foto de Thiago Costa" class="profile-img">
           <h3>Thiago Costa</h3>
           <p class="role">Android Developer</p>
           <div class="badge">disponível para oportunidades</div>
           <div class="social-row">
-            <a href="https://www.linkedin.com/in/thiagocostadejesus/" target="_blank"><ion-icon
-                name="logo-linkedin"></ion-icon></a>
-            <a href="https://github.com/thiago082882/" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-            <a href="mailto:thiagocostadejesus2@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/thiagocostadejesus/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/thiago082882/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="mailto:thiagocostadejesus2@gmail.com" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a>
           </div>
         </div>
       </div>
@@ -83,73 +68,34 @@
 
   <div class="divider"></div>
 
-  <!-- ── PLAY STORE ────────────────────────────────────────────── -->
-  <section id="kmp" class="section">
+  <!-- PLAY STORE -->
+  <section id="playstore" class="section">
     <div class="container">
-      <div class="section-header fade-up">
-        <p class="section-label">Disponível na Google Play Store</p>
+      <div class="section-header reveal">
+        <p class="section-label">Publicado na Google Play</p>
         <h2 class="section-title">Centavo na Play Store</h2>
-        <p class="section-sub">App de controle financeiro pessoal, atualmente em teste fechado na Google Play.</p>
+        <p class="section-sub">Aplicativo de controle de gastos feito em Jetpack Compose e disponível para download.</p>
       </div>
 
-      <!-- App em destaque -->
-      <div class="featured fade-up" style="margin-bottom:24px">
+      <div class="featured reveal">
         <div>
-          <p class="featured-label">🚀 Teste fechado · Publicação em breve</p>
-          <h3>Centavo — Controle Financeiro</h3>
-          <p>App de finanças pessoais desenvolvido com <strong>Jetpack Compose</strong>, arquitetura
-            <strong>MVI + Clean Architecture</strong>. Atualmente em <strong>teste fechado</strong> na
-            Google Play, com lançamento público previsto em breve.
-          </p>
+          <p class="featured-label"><ion-icon name="rocket-outline"></ion-icon> Disponível na Google Play</p>
+          <h3>CentAvo: Controle de Gastos</h3>
+          <p>Registre gastos em segundos, organize por categorias, acompanhe relatórios mensais e use o widget na tela inicial. Desenvolvido com <strong>Jetpack Compose</strong>, <strong>MVI</strong> e <strong>Clean Architecture</strong>.</p>
           <div class="tech-chips">
-            <span class="chip highlight">Jetpack Compose</span>
-            <span class="chip highlight">Kotlin</span>
-          <div class="featured fade-up" style="margin-bottom:24px">
-  <div>
-    <p class="featured-label">🚀 Disponível na Google Play</p>
-    <h3>Centavo — Controle Financeiro</h3>
-    <p>
-      Aplicativo de controle financeiro pessoal desenvolvido com
-      <strong>Jetpack Compose</strong>, arquitetura
-      <strong>MVI + Clean Architecture</strong>.
-      Organize suas finanças, acompanhe seus gastos e tenha
-      mais controle sobre seu dinheiro.
-    </p>
+            <span class="chip highlight">Jetpack Compose</span><span class="chip highlight">Kotlin</span><span class="chip highlight">MVI</span><span class="chip highlight">Clean Architecture</span>
+            <span class="chip">Hilt</span><span class="chip">Coroutines + Flow</span><span class="chip">Room</span>
+          </div>
+          <a class="btn primary" href="https://play.google.com/store/apps/details?id=br.thiago.centavo&hl=pt_BR" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-google-playstore"></ion-icon> Ver na Google Play</a>
+        </div>
+        <div class="featured-media"><img src="./img/centavo.png" alt="Telas do app Centavo" loading="lazy"></div>
+      </div>
 
-    <div class="tech-chips">
-      <span class="chip highlight">Jetpack Compose</span>
-      <span class="chip highlight">Kotlin</span>
-      <span class="chip highlight">MVI</span>
-      <span class="chip highlight">Clean Architecture</span>
-      <span class="chip">Hilt</span>
-      <span class="chip">Coroutines + Flow</span>
-      <span class="chip">Room</span>
-    </div>
-
-    <a class="btn primary"
-       href="https://play.google.com/store/apps/details?id=br.thiago.centavo&hl=pt_BR"
-       target="_blank"
-       rel="noopener noreferrer">
-      <ion-icon name="logo-google-playstore"></ion-icon>
-      Baixar na Google Play
-    </a>
-  </div>
-
-  <div class="featured-mock">
-    <ion-icon name="logo-google-playstore"></ion-icon>
-    <span>Play Store</span>
-  </div>
-</div>
-
-      <!-- KMP realidade -->
-      <div class="kmp-banner fade-up">
+      <div class="kmp-banner reveal">
         <div class="kmp-icon"><ion-icon name="layers-outline"></ion-icon></div>
         <div>
-          <h4>Kotlin Multiplatform (KMP) — já em prática</h4>
-          <p>Além do Centavo, já tenho o <strong style="color:var(--white)">GitTrack</strong> em
-            <strong style="color:var(--white)">Kotlin Multiplatform</strong> —
-            compartilhando lógica de negócio entre Android e iOS com UIs nativas em cada plataforma.
-          </p>
+          <h4>Kotlin Multiplatform já em prática</h4>
+          <p>Tenho 4 projetos em KMP (GitTrack, BuildWatch, Compose Playground e Versículo Bíblia), compartilhando lógica e UI entre plataformas. Veja todos em <a class="green" href="#projects" data-filter-link="kmp">Projetos → KMP</a>.</p>
         </div>
       </div>
     </div>
@@ -157,401 +103,186 @@
 
   <div class="divider"></div>
 
-  <!-- ── ATIVIDADES ───────────────────────────────────────────── -->
+  <!-- ESPECIALIDADES -->
   <section id="services" class="section">
     <div class="container">
-      <div class="section-header fade-up">
+      <div class="section-header reveal">
         <p class="section-label">O que faço</p>
         <h2 class="section-title">Especialidades</h2>
       </div>
       <div class="services-grid">
-        <div class="service fade-up">
-          <div class="icon"><ion-icon name="phone-portrait-outline"></ion-icon></div>
-          <h4>Android Nativo</h4>
-          <p>Kotlin, Jetpack Compose, MVVM, Clean Architecture e publicação na Google Play Store.</p>
-        </div>
-        <div class="service fade-up">
-          <div class="icon"><ion-icon name="logo-google-playstore"></ion-icon></div>
-          <h4>Jetpack Compose</h4>
-          <p>UI declarativa moderna, animações nativas, Navigation Compose e publicação na Google Play Store.</p>
-        </div>
-        <div class="service fade-up">
-          <div class="icon"><ion-icon name="layers-outline"></ion-icon></div>
-          <h4>Kotlin Multiplatform</h4>
-          <p>Projeto KMP em andamento — compartilhando lógica de negócio entre Android e iOS com UIs nativas.</p>
-        </div>
-        <div class="service fade-up">
-          <div class="icon"><ion-icon name="server-outline"></ion-icon></div>
-          <h4>Back-end</h4>
-          <p>APIs RESTful com Node.js, Spring Boot e Ktor. Bancos: MySQL, PostgreSQL, MongoDB.</p>
-        </div>
-        <div class="service fade-up">
-          <div class="icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
-          <h4>Qualidade & Testes</h4>
-          <p>JUnit, Mockito, Postman, jMeter e Robot Framework. CI/CD com GitHub Actions.</p>
-        </div>
+        <div class="service reveal"><div class="icon"><ion-icon name="phone-portrait-outline"></ion-icon></div><h4>Android nativo</h4><p>Kotlin, Java, MVVM, MVI, Clean Architecture, Hilt, Room e Retrofit.</p></div>
+        <div class="service reveal"><div class="icon"><ion-icon name="color-palette-outline"></ion-icon></div><h4>Jetpack Compose</h4><p>UI declarativa, animações, Navigation Compose e Material 3.</p></div>
+        <div class="service reveal"><div class="icon"><ion-icon name="layers-outline"></ion-icon></div><h4>Kotlin Multiplatform</h4><p>Lógica compartilhada com apps Android, Desktop e iOS.</p></div>
+        <div class="service reveal"><div class="icon"><ion-icon name="rocket-outline"></ion-icon></div><h4>Releases e CI/CD</h4><p>Versionamento, GitHub Actions, publicação na Play Store e monitoramento de crashes e ANRs.</p></div>
+        <div class="service reveal"><div class="icon"><ion-icon name="server-outline"></ion-icon></div><h4>Back-end</h4><p>APIs REST com Node.js, Spring Boot e Ktor. MySQL, PostgreSQL e MongoDB.</p></div>
+        <div class="service reveal"><div class="icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div><h4>Qualidade e testes</h4><p>JUnit, Mockito, Postman, jMeter e Robot Framework.</p></div>
       </div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- ── PROJETOS ─────────────────────────────────────────────── -->
+  <!-- PROJETOS (renderizados pelo script no final) -->
   <section id="projects" class="section">
     <div class="container">
-      <div class="section-header fade-up">
-        <p class="section-label">Portfólio · Código Privado</p>
-        <h2 class="section-title">Projetos Recentes</h2>
-        <p class="section-sub">Apps Android desenvolvidos com arquitetura limpa e boas práticas. Repositórios privados — disponíveis para revisão sob demanda.</p>
+      <div class="section-header reveal">
+        <p class="section-label">Portfólio</p>
+        <h2 class="section-title">Projetos</h2>
+        <p class="section-sub">Apps Android e multiplataforma com arquitetura limpa. Os repositórios são privados e ficam disponíveis para revisão sob demanda.</p>
       </div>
-      <div class="projects-grid">
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Teste fechado</span>
-            <img src="./img/centavo.png" alt="Centavo">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">01 / 10</span>
-              <h4>Centavo</h4>
-              <p class="stack"><span>Kotlin</span><span>Jetpack Compose</span><span>MVI</span><span>Clean Architecture</span></p>
-            </div>
-            <p>App de controle financeiro pessoal com categorização automática de gastos, relatórios mensais e arquitetura MVI. Atualmente em teste fechado na Google Play.</p>
-          <div class="project-foot">
-  <a
-    href="https://play.google.com/store/apps/details?id=br.thiago.centavo&hl=pt_BR"
-    target="_blank"
-    rel="noopener noreferrer">
-    <ion-icon name="logo-google-playstore"></ion-icon>
-    Disponível na Google Play
-  </a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/cryptovault.png" alt="CryptoVault">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">02 / 10</span>
-              <h4>CryptoVault</h4>
-              <p class="stack"><span>Jetpack Compose</span><span>Kotlin</span><span>CoinMarketCap API</span></p>
-            </div>
-            <p>Mercado de criptomoedas em tempo real com gráficos de candles profissionais, top gainers/losers e estatísticas detalhadas de mercado.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/examefacil.png" alt="Exame Fácil">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">03 / 10</span>
-              <h4>Exame Fácil</h4>
-              <p class="stack"><span>Kotlin</span><span>XML</span><span>MVVM</span><span>IA / OCR</span></p>
-            </div>
-            <p>Traduz exames médicos para linguagem simples usando IA, com sugestão automática de perguntas para o médico.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/financafacil.png" alt="Finança Fácil">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">04 / 10</span>
-              <h4>Finança Fácil</h4>
-              <p class="stack"><span>Kotlin</span><span>XML</span><span>MVVM</span><span>Clean Architecture</span></p>
-            </div>
-            <p>Gestão financeira pessoal com entradas, saídas, exportação PDF/Excel e lembretes diários configuráveis.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/footpulse.png" alt="FootPulse">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">05 / 10</span>
-              <h4>FootPulse</h4>
-              <p class="stack"><span>Jetpack Compose</span><span>MVVM</span><span>API Futebol</span></p>
-            </div>
-            <p>Placares ao vivo, próximos jogos, notícias e estatísticas detalhadas dos times do Brasileirão.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status live">KMP · Android + iOS</span>
-            <img src="./img/gittrack.png" alt="GitTrack">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">06 / 10</span>
-              <h4>GitTrack</h4>
-              <p class="stack"><span>Kotlin Multiplatform</span><span>Clean Architecture</span><span>GitHub API</span></p>
-            </div>
-            <p>Descubra e acompanhe desenvolvedores do GitHub, com perfis detalhados e favoritos — lógica compartilhada entre Android e iOS via KMP.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/habitflow.png" alt="HabitFlow">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">07 / 10</span>
-              <h4>HabitFlow</h4>
-              <p class="stack"><span>Firebase</span><span>Jetpack Compose</span><span>MVVM</span></p>
-            </div>
-            <p>Tracking de hábitos com frequência customizável (diário, semanal, dias específicos), metas e lembretes.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/insights.png" alt="GitHub PR Reviewer Insights">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">08 / 10</span>
-              <h4>GitHub PR Reviewer Insights</h4>
-              <p class="stack"><span>Jetpack Compose</span><span>MVVM</span><span>GitHub API</span></p>
-            </div>
-            <p>Dashboard executivo que analisa Pull Requests: tempo até o primeiro review, PRs travados e score de complexidade.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/remediocerto.png" alt="Remédio Certo">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">09 / 10</span>
-              <h4>Remédio Certo AI</h4>
-              <p class="stack"><span>Jetpack Compose</span><span>MVVM</span><span>IA / Visão Computacional</span></p>
-            </div>
-            <p>Verifica medicamentos por câmera com IA antes de tomar, com checklist diário de tratamentos e lembretes.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card fade-up">
-          <div class="project-media">
-            <span class="project-status">🔒 Privado</span>
-            <img src="./img/splitexpenses.png" alt="SplitExpenses">
-          </div>
-          <div class="project-body">
-            <div class="project-body-top">
-              <span class="project-number">10 / 10</span>
-              <h4>SplitExpenses</h4>
-              <p class="stack"><span>Jetpack Compose</span><span>MVI</span><span>OCR</span></p>
-            </div>
-            <p>Divide despesas em grupo com scan automático de comprovantes, modo viagem, modo evento e cálculo por pessoa.</p>
-            <div class="project-foot">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Código privado · disponível mediante solicitação</span>
-            </div>
-          </div>
-        </article>
-
+      <div class="filters" id="filters" role="group" aria-label="Filtrar projetos">
+        <button class="filter active" data-f="all">Todos</button>
+        <button class="filter" data-f="kmp">Kotlin Multiplatform</button>
+        <button class="filter" data-f="compose">Jetpack Compose</button>
+        <button class="filter" data-f="ia">IA</button>
+        <button class="filter" data-f="xml">XML</button>
       </div>
+      <div class="projects-grid" id="projectsGrid"></div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- ── SOBRE ────────────────────────────────────────────────── -->
+  <!-- SOBRE -->
   <section id="about" class="section">
     <div class="container about-inner">
-      <div class="fade-up">
+      <div class="reveal">
         <p class="section-label">Sobre mim</p>
         <h2 class="section-title">Thiago Costa<br><span class="green">de Jesus</span></h2>
-        <p class="muted" style="margin-bottom:16px;line-height:1.75">
-          Desenvolvedor Android com <strong style="color:var(--white)">4+ anos de experiência</strong> em projetos
-          corporativos de grande escala. Atualmente na <strong style="color:var(--white)">F1RST Digital Services
-            (Santander)</strong>, trabalhando com Kotlin, Jetpack Compose, Clean Architecture e MVVM.
-        </p>
-        <p class="muted" style="margin-bottom:20px;line-height:1.75">
-          Apaixonado por código limpo e arquiteturas escaláveis — atualmente finalizando app <strong
-            style="color:var(--green)">Jetpack Compose</strong> para a <strong style="color:var(--green)">Google Play
-            Store</strong>, e já com projeto em <strong style="color:var(--green)">Kotlin Multiplatform (KMP)</strong>
-          em andamento.
-        </p>
+        <p class="muted">Android Developer com <strong>4+ anos de experiência</strong> em desenvolvimento e manutenção de apps mobile, em projetos corporativos e aplicações de grande escala. Hoje sou IT Analyst II na <strong>F1RST Digital Services</strong>, em um projeto bancário do <strong>Santander</strong>: funcionalidades, evolução arquitetural, qualidade e ciclo de vida de apps em produção.</p>
+        <p class="muted">No dia a dia: code reviews, testes unitários, gestão de releases, pipelines CI/CD e monitoramento de crashes e ANRs com <strong>Firebase Crashlytics, Dynatrace e Grafana</strong>. Fora do trabalho, publiquei o <strong class="green">Centavo</strong> na Play Store e construo projetos em <strong class="green">Kotlin Multiplatform</strong>.</p>
         <div class="skills-list">
-          <span class="skill-item">Kotlin</span>
-          <span class="skill-item">Java</span>
-          <span class="skill-item">Jetpack Compose</span>
-          <span class="skill-item">KMP</span>
-          <span class="skill-item">Play Store</span>
-          <span class="skill-item">MVVM</span>
-          <span class="skill-item">Clean Arch</span>
-          <span class="skill-item">Hilt / Koin</span>
-          <span class="skill-item">Coroutines</span>
-          <span class="skill-item">Retrofit</span>
-          <span class="skill-item">Room</span>
-          <span class="skill-item">Spring Boot</span>
-          <span class="skill-item">Node.js</span>
-          <span class="skill-item">Firebase</span>
-          <span class="skill-item">Docker</span>
+          <span class="skill-item">Kotlin</span><span class="skill-item">Java</span><span class="skill-item">Jetpack Compose</span><span class="skill-item">KMP</span>
+          <span class="skill-item">MVVM · MVI</span><span class="skill-item">Clean Arch</span><span class="skill-item">Hilt</span><span class="skill-item">Coroutines · Flow</span>
+          <span class="skill-item">Room</span><span class="skill-item">Retrofit</span><span class="skill-item">Navigation</span><span class="skill-item">JUnit</span>
+          <span class="skill-item">Mockito</span><span class="skill-item">GitHub Actions</span><span class="skill-item">Docker</span><span class="skill-item">Firebase</span>
+          <span class="skill-item">Ionic</span><span class="skill-item">Flutter</span><span class="skill-item">Node.js</span><span class="skill-item">Spring Boot</span><span class="skill-item">Ktor</span>
         </div>
-
-        <!-- Mini timeline -->
-        <div class="timeline mt">
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <p class="tl-date">Fev 2025 – Atual</p>
-            <p class="tl-title">IT Analyst II – Android Developer</p>
-            <p class="tl-company">F1RST Digital Services · Santander</p>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <p class="tl-date">Jul 2024 – Fev 2025</p>
-            <p class="tl-title">Analista de Sistemas Júnior</p>
-            <p class="tl-company">BRQ Digital Solutions</p>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <p class="tl-date">Jul 2023 – Jul 2024</p>
-            <p class="tl-title">Assistente – Integrações & Android</p>
-            <p class="tl-company">Gertec</p>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <p class="tl-date">Abr 2022 – Mai 2023</p>
-            <p class="tl-title">Desenvolvedor Android</p>
-            <p class="tl-company">Foursys</p>
-          </div>
+        <div class="timeline">
+          <div class="tl-item"><div class="tl-dot"></div><p class="tl-date">Fev 2025 – Atual</p><p class="tl-title">IT Analyst II – Android Developer</p><p class="tl-company">F1RST Digital Services · Santander</p></div>
+          <div class="tl-item"><div class="tl-dot"></div><p class="tl-date">Jul 2024 – Fev 2025</p><p class="tl-title">Analista de Sistemas Júnior</p><p class="tl-company">BRQ Digital Solutions</p></div>
+          <div class="tl-item"><div class="tl-dot"></div><p class="tl-date">Jul 2023 – Jul 2024</p><p class="tl-title">Assistente – Integrações e Android</p><p class="tl-company">Gertec</p></div>
+          <div class="tl-item"><div class="tl-dot"></div><p class="tl-date">Abr 2022 – Mai 2023</p><p class="tl-title">Desenvolvedor Android</p><p class="tl-company">Foursys</p></div>
         </div>
-
-        <a class="btn primary mt"
-          href="https://drive.google.com/file/d/1nGODWDtBhHDuWczfqbxukhjPRlOmI5Qp/view?usp=sharing" target="_blank"
-          style="display:inline-flex;margin-top:24px"><ion-icon name="document-text-outline"></ion-icon> Ver Currículo
-          Completo</a>
+        <a class="btn primary" href="https://drive.google.com/file/d/1nGODWDtBhHDuWczfqbxukhjPRlOmI5Qp/view?usp=sharing" target="_blank" rel="noopener noreferrer"><ion-icon name="document-text-outline"></ion-icon> Ver currículo completo</a>
       </div>
-      <div class="about-photo fade-up">
-        <img src="./img/thiago.png" alt="Thiago Costa">
-      </div>
+      <div class="about-photo reveal"><img src="./img/thiago.png" alt="Thiago Costa" loading="lazy"></div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- ── CONTATO ──────────────────────────────────────────────── -->
+  <!-- CONTATO -->
   <section id="contact" class="section">
     <div class="container">
-      <div class="section-header fade-up">
+      <div class="section-header reveal">
         <p class="section-label">Vamos conversar</p>
         <h2 class="section-title">Contato</h2>
         <p class="section-sub">Aberto a oportunidades, projetos e colaborações.</p>
       </div>
       <div class="contact-grid">
-        <div class="contact-card fade-up">
-          <ion-icon name="call-outline"></ion-icon>
-          <h4>Telefone</h4>
-          <p>+55 (11) 96539-4251</p>
-        </div>
-        <div class="contact-card fade-up">
-          <ion-icon name="mail-outline"></ion-icon>
-          <h4>Email</h4>
-          <p>thiagocostadejesus2@gmail.com</p>
-        </div>
-        <div class="contact-card fade-up">
-          <ion-icon name="logo-linkedin"></ion-icon>
-          <h4>LinkedIn</h4>
-          <a href="https://linkedin.com/in/thiagocostadejesus" target="_blank"
-            style="color:var(--green);font-size:.82rem">thiagocostadejesus</a>
-        </div>
-        <div class="contact-card fade-up">
-          <ion-icon name="logo-github"></ion-icon>
-          <h4>GitHub</h4>
-          <a href="https://github.com/thiago082882" target="_blank"
-            style="color:var(--green);font-size:.82rem">thiago082882</a>
-        </div>
+        <a class="contact-card reveal" href="tel:+5511965394251"><ion-icon name="call-outline"></ion-icon><h4>Telefone</h4><p>+55 (11) 96539-4251</p></a>
+        <a class="contact-card reveal" href="mailto:thiagocostadejesus2@gmail.com"><ion-icon name="mail-outline"></ion-icon><h4>Email</h4><p>thiagocostadejesus2@gmail.com</p></a>
+        <a class="contact-card reveal" href="https://linkedin.com/in/thiagocostadejesus" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon><h4>LinkedIn</h4><p>thiagocostadejesus</p></a>
+        <a class="contact-card reveal" href="https://github.com/thiago082882" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon><h4>GitHub</h4><p>thiago082882</p></a>
       </div>
     </div>
   </section>
 
-  <!-- ── FOOTER ───────────────────────────────────────────────── -->
   <footer class="footer">
-    <div>
-      <strong>Thiago Costa de Jesus</strong><br>
-      <small class="muted">Android Developer · São Paulo, BR</small>
-    </div>
+    <div><strong>Thiago Costa de Jesus</strong><br><small class="muted">Android Developer · São Paulo, BR</small></div>
     <div class="footer-links">
-      <a href="https://linkedin.com/in/thiagocostadejesus" target="_blank">LinkedIn</a>
-      <a href="https://github.com/thiago082882" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/thiagocostadejesus" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/thiago082882" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="mailto:thiagocostadejesus2@gmail.com">Email</a>
     </div>
-    <small class="muted">© 2025 Thiago Costa</small>
+    <small class="muted">© 2026 Thiago Costa</small>
   </footer>
 
   <script>
-    // Nav toggle
+    // ── Dados dos projetos: para adicionar/editar, mexa só aqui ──
+    const PLAY = 'https://play.google.com/store/apps/details?id=br.thiago.centavo&hl=pt_BR';
+    const PROJECTS = [
+      { name:'Centavo', img:'centavo.png', status:'Na Google Play', live:true, tags:['compose'], stack:['Kotlin','Jetpack Compose','MVI','Clean Architecture'],
+        desc:'Controle de gastos pessoais: registro em segundos, categorias ilimitadas, relatórios mensais e widget na tela inicial.', play:PLAY },
+      { name:'Remédio Certo AI', img:'remediocerto.jpg', status:'Privado', tags:['compose','ia'], stack:['Jetpack Compose','MVVM','IA / Visão Computacional'],
+        desc:'Confere o remédio pela câmera com IA antes de tomar, com cadastro de tratamentos, checklist diário e lembretes.' },
+      { name:'Anti Golpe Pix', img:'antigolpe.jpg', status:'Privado', tags:['compose'], stack:['Kotlin','Jetpack Compose','Material 3'],
+        desc:'Treina para não cair em golpes: detector de mensagens suspeitas, simulações de golpes com etapas, modo família e nível de proteção.' },
+      { name:'PriceRadar', img:'priceradar.jpg', status:'Privado', tags:['compose'], stack:['Kotlin','Jetpack Compose','API Mercado Livre'],
+        desc:'Monitora preços de produtos, mostra histórico, maiores descontos, favoritos e avisa quando atinge o preço desejado.' },
+      { name:'WeatherFlow', img:'weatherflow.jpg', status:'Privado', tags:['compose'], stack:['Kotlin','Jetpack Compose','Open-Meteo API'],
+        desc:'Previsão do tempo por hora e por dia, cidades favoritas, qualidade do ar e recomendações como alerta de UV e calor.' },
+      { name:'GitTrack', img:'gittrack.png', status:'KMP · Android + iOS + Desktop', live:true, tags:['kmp'], stack:['Kotlin Multiplatform','Clean Architecture','GitHub API'],
+        desc:'Descubra e acompanhe desenvolvedores do GitHub, com perfis detalhados e favoritos. Lógica compartilhada entre plataformas.' },
+      { name:'BuildWatch', img:'buildwatch.jpg', status:'KMP · Android + Desktop', live:true, tags:['kmp'], stack:['Kotlin Multiplatform','GitHub Actions API','Clean Architecture'],
+        desc:'Painel para acompanhar workflows do GitHub Actions: execuções, status, jobs, logs, taxa de sucesso e notificações de build com falha.' },
+      { name:'Compose Playground', img:'playground.jpg', status:'Código aberto · KMP', live:true, tags:['kmp','compose'], stack:['Kotlin Multiplatform','Compose Multiplatform'],
+        desc:'Coleção de animações e componentes que rodam de verdade. Ajuste os parâmetros em tempo real e copie o código.', gh:'https://github.com/thiago082882' },
+      { name:'Versículo Bíblia', img:'versiculo.jpg', status:'KMP · Android + Desktop', live:true, tags:['kmp'], stack:['Kotlin Multiplatform','Compose Multiplatform'],
+        desc:'Versículo do dia, Bíblia completa, planos de leitura, temas, marcações, sequência de dias e compartilhamento em imagem.' },
+      { name:'CryptoVault', img:'cryptovault.png', status:'Privado', tags:['compose'], stack:['Jetpack Compose','Kotlin','CoinMarketCap API'],
+        desc:'Mercado de criptomoedas em tempo real com gráficos de candles, top gainers e losers e estatísticas de mercado.' },
+      { name:'SplitExpenses', img:'splitexpenses.png', status:'Privado', tags:['compose'], stack:['Jetpack Compose','MVI','OCR'],
+        desc:'Divide despesas em grupo com leitura automática de comprovantes, modo viagem, modo evento e cálculo por pessoa.' },
+      { name:'HabitFlow', img:'habitflow.png', status:'Privado', tags:['compose'], stack:['Firebase','Jetpack Compose','MVVM'],
+        desc:'Acompanha hábitos com frequência personalizada (diária, semanal, dias específicos), metas e lembretes.' },
+      { name:'GitHub PR Reviewer Insights', img:'insights.png', status:'Privado', tags:['compose'], stack:['Jetpack Compose','MVVM','GitHub API'],
+        desc:'Dashboard que analisa Pull Requests: tempo até o primeiro review, PRs travados e score de complexidade.' },
+      { name:'FootPulse', img:'footpulse.png', status:'Privado', tags:['compose'], stack:['Jetpack Compose','MVVM','API Futebol'],
+        desc:'Placares ao vivo, próximos jogos, notícias e estatísticas dos times do Brasileirão.' },
+      { name:'Exame Fácil', img:'examefacil.png', status:'Privado', tags:['xml','ia'], stack:['Kotlin','XML','MVVM','IA / OCR'],
+        desc:'Traduz exames médicos para linguagem simples com IA e sugere perguntas para levar ao médico.' },
+      { name:'Finança Fácil', img:'financafacil.png', status:'Privado', tags:['xml'], stack:['Kotlin','XML','MVVM','Clean Architecture'],
+        desc:'Gestão financeira com entradas e saídas, exportação em PDF e Excel e lembretes diários configuráveis.' }
+    ];
+
+    const grid = document.getElementById('projectsGrid');
+    grid.innerHTML = PROJECTS.map(p => `
+      <article class="project-card reveal" data-tags="${p.tags.join(' ')}">
+        <div class="project-media">
+          <span class="project-status${p.live ? ' live' : ''}">${p.status}</span>
+          <img src="./img/${p.img}" alt="Telas do app ${p.name}" loading="lazy">
+        </div>
+        <div class="project-body">
+          <h4>${p.name}</h4>
+          <p class="stack">${p.stack.map(s => `<span>${s}</span>`).join('')}</p>
+          <p>${p.desc}</p>
+          <div class="project-foot">${
+            p.play ? `<a href="${p.play}" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-google-playstore"></ion-icon> Disponível na Google Play</a>`
+            : p.gh ? `<a href="${p.gh}" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon> Código aberto no GitHub</a>`
+            : `<ion-icon name="shield-checkmark-outline"></ion-icon><span>Código privado · disponível sob solicitação</span>`}
+          </div>
+        </div>
+      </article>`).join('');
+
+    // Filtros
+    const filterBtns = document.querySelectorAll('.filter');
+    function applyFilter(f) {
+      filterBtns.forEach(b => b.classList.toggle('active', b.dataset.f === f));
+      grid.querySelectorAll('.project-card').forEach(c => {
+        c.classList.toggle('hide', f !== 'all' && !c.dataset.tags.split(' ').includes(f));
+      });
+    }
+    filterBtns.forEach(b => b.addEventListener('click', () => applyFilter(b.dataset.f)));
+    document.querySelectorAll('[data-filter-link]').forEach(a => a.addEventListener('click', () => applyFilter(a.dataset.filterLink)));
+
+    // Menu mobile
     const navToggle = document.getElementById('navToggle');
     const navList = document.getElementById('navList');
     navToggle.addEventListener('click', () => navList.classList.toggle('open'));
-    window.addEventListener('resize', () => { if (window.innerWidth > 780) navList.classList.remove('open') });
+    window.addEventListener('resize', () => { if (window.innerWidth > 860) navList.classList.remove('open'); });
     navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navList.classList.remove('open')));
 
-    // Header scroll
+    // Header ao rolar
     const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 40);
-    });
+    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40);
+    window.addEventListener('scroll', onScroll); onScroll();
 
-    // Fade-up on scroll
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target) } });
-    }, { threshold: 0.12 });
-    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    // Reveal ao rolar
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }), { threshold: .1 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
   </script>
 </body>
-
 </html>
